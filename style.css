@@ -10,7 +10,6 @@ body {
   color: white;
 }
 
-/* LOGO AREA */
 
 .logo-section {
   text-align: center;
@@ -33,7 +32,6 @@ body {
   color: #ccc;
 }
 
-/* NAVBAR */
 
 .navbar {
   display: grid;
@@ -54,7 +52,6 @@ body {
   border: none;
 }
 
-/* IMAGE SECTION */
 
 .gallery {
   display: flex;
@@ -108,7 +105,6 @@ body {
   margin: 8px 0;
 }
 
-/* images section */
 
 .venue-images {
   display: flex;
