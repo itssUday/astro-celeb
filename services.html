@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    margin:0;
+    background:black;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+.services{
+    padding:60px 20px;
+    text-align:center;
+    width: 100%;
+}
+.services h2{
+    font-size:26px;
+    margin-bottom:10px;
+}
+.subtext{
+    color:#bbb;
+    margin-bottom:60px;
+}
+.service-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    gap:100px;
+}
+.service-images{
+    position:relative;
+    width:420px;
+    height:420px;
+    flex-shrink:0;
+}
+.service-images img{
+    width:100%;
+    border-radius:20px;
+    position:absolute;
+}
+.img1{ top:0; left:0; }
+.img2{ top:120px; left:120px; }
+.service-text{
+    max-width:450px;
+    text-align:left;
+}
+.service-text h3{
+    letter-spacing:2px;
+    margin-bottom:20px;
+}
+.service-text p{
+    color:#ccc;
+    line-height:1.6;
+}
+.service-text button{
+    margin-top:25px;
+    padding:12px 28px;
+    background:#d4b06a;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+<section class="services">
+  <h2>POSSIBILITIES ARE ENDLESS WITH ASTRO CELEBRATIONS...</h2>
+  <p class="subtext">
+    Weddings, business conferences, birthday parties, graduations…
+    you name it, Astro Celebrations can host it!
+  </p>
+  <div class="service-container">
+    <div class="service-images">
+      <img src="https://i.pinimg.com/1200x/84/4e/94/844e94dc684a35740c5c328cc6fd4d58.jpg" class="img1">
+      <img src="https://i.pinimg.com/1200x/f3/b2/3b/f3b23b82a1a536807aab03334ea61b75.jpg" class="img2">
+    </div>
+    <div class="service-text">
+      <h3>WEDDINGS</h3>
+      <p>
+        If you choose to exchange your vows in one of our stunning indoor or outdoor ceremony sites,
+        you have the use of our comfortable dressing suites.
+      </p>
+      <p>
+        Create the day of your dreams with the support of our award winning staff from start to finish.
+      </p>
+      <button>Book Astro Celebrations Today</button>
+    </div>
+  </div>
+</section>
+</body>
+</html>
